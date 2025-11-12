@@ -6,6 +6,8 @@
 	<a href="https://github.com/starryforest-ymxk/Interactable/blob/main/LICENSE.md"><img src="https://img.shields.io/badge/license-MIT-blue.svg" title="license-mit" /></a>
 	<a href="https://github.com/starryforest-ymxk/Interactable/releases"><img src="https://img.shields.io/github/v/release/starryforest-ymxk/Interactable?color=green"/></a>
 </p>
+</div>
+
 |[中文](README.md)|[English](README_EN.md)|
 
 ---
