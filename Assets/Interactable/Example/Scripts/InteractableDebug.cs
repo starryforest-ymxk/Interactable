@@ -7,6 +7,7 @@ namespace Interactable.Example
     public class InteractableDebug : MonoBehaviour, 
         IIAPointerEnterHandler,
         IIAPointerExitHandler,
+        IIAPointerMoveHandler,
         IIAPointerDownHandler,
         IIAPointerUpHandler,
         IIAPointerClickHandler,
@@ -28,122 +29,131 @@ namespace Interactable.Example
 
         public void OnPointerEnter(IAPointerData pointerData)
         {
-                if (!debug)
-                        return;
-                Debug.Log("On Pointer Enter");
+            if (!debug)
+                    return;
+            Debug.Log("On Pointer Enter");
         }
 
         public void OnPointerExit(IAPointerData pointerData)
         {
-                if (!debug)
-                        return;
-                Debug.Log("On Pointer Exit");
+            if (!debug)
+                    return;
+            Debug.Log("On Pointer Exit");
+        }
+        
+        
+        public void OnPointerMove(IAPointerData pointerData)
+        {
+            if (!debug)
+                return;
+            Debug.Log("On Pointer Move");
         }
 
         public void OnPointerDown(IAPointerData pointerData)
         {
-                if (!debug)
-                        return;
-                Debug.Log("On Pointer Down");
+            if (!debug)
+                    return;
+            Debug.Log("On Pointer Down");
         }
 
         public void OnPointerUp(IAPointerData pointerData)
         {
-                if (!debug)
-                        return;
-                Debug.Log("On Pointer Up");
+            if (!debug)
+                    return;
+            Debug.Log("On Pointer Up");
         }
 
         public void OnPointerClick(IAPointerData pointerData)
         {
-                if (!debug)
-                        return;
-                Debug.Log("On Pointer Click");
+            if (!debug)
+                    return;
+            Debug.Log("On Pointer Click");
         }
 
         public void OnInitializePotentialDrag(IAPointerData pointerData)
         {
-                if (!debug)
-                        return;
-                Debug.Log("On Initialize Potential Drag");
+            if (!debug)
+                    return;
+            Debug.Log("On Initialize Potential Drag");
         }
 
         public void OnBeginDrag(IAPointerData pointerData)
         {
-                if (!debug)
-                        return;
-                Debug.Log("On Begin Drag");
+            if (!debug)
+                    return;
+            Debug.Log("On Begin Drag");
         }
 
         public void OnDrag(IAPointerData pointerData)
         {
-                if (!debug)
-                        return;
-                Debug.Log("On Drag");
+            if (!debug)
+                    return;
+            Debug.Log("On Drag");
         }
 
         public void OnEndDrag(IAPointerData pointerData)
         {
-                if (!debug)
-                        return;
-                Debug.Log("On End Drag");
+            if (!debug)
+                    return;
+            Debug.Log("On End Drag");
         }
 
         public void OnDrop(IAPointerData pointerData)
         {
-                if (!debug)
-                        return;
-                Debug.Log("On Drop");
+            if (!debug)
+                    return;
+            Debug.Log("On Drop");
         }
 
         public void OnScroll(IAPointerData pointerData)
         {
-                if (!debug)
-                        return;
-                Debug.Log("On Scroll");
+            if (!debug)
+                    return;
+            Debug.Log("On Scroll");
         }
 
         public void OnUpdateSelected(IABaseData baseData)
         {
-                if (!debug)
-                        return;
-                Debug.Log("On Update Selected");
+            if (!debug)
+                    return;
+            Debug.Log("On Update Selected");
         }
 
         public void OnSelect(IABaseData baseData)
         {
-                if (!debug)
-                        return;
-                Debug.Log("On Select");
+            if (!debug)
+                    return;
+            Debug.Log("On Select");
         }
 
         public void OnDeselect(IABaseData baseData)
         {
-                if (!debug)
-                        return;
-                Debug.Log("On Deselect");
+            if (!debug)
+                    return;
+            Debug.Log("On Deselect");
         }
 
         public void OnMove(IAAxisData axisData)
         {
-                if (!debug)
-                        return;
-                Debug.Log("On Move");
+            if (!debug)
+                    return;
+            Debug.Log("On Move");
         }
 
         public void OnSubmit(IABaseData baseData)
         {
-                if (!debug)
-                        return;
-                Debug.Log("On Submit");
+            if (!debug)
+                    return;
+            Debug.Log("On Submit");
         }
 
         public void OnCancel(IABaseData baseData)
         {
-                if (!debug)
-                        return;
-                Debug.Log("On Cancel");
+            if (!debug)
+                    return;
+            Debug.Log("On Cancel");
         }
+
     }
 
 }
