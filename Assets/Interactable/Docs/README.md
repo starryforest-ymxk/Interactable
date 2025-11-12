@@ -221,5 +221,4 @@ IAManager (交互管理器 - 单例)
 
 - 📖 查阅 [完整文档](Interactable_Manual.md)
 - 💡 查看 [示例场景](../Example)
-- ❓ 提交 [Issue](https://github.com/starryforest_ymxk/Interactable/issues)
-- 💬 参与 [Discussions](https://github.com/starryforest_ymxk/Interactable/discussions)
+- ❓ 提交 [Issue](https://github.com/starryforest-ymxk/Interactable/issues)

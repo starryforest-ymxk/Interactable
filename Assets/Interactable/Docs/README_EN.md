@@ -223,5 +223,4 @@ IAManager (Interaction Manager - Singleton)
 - 📖 Read the [Complete Documentation](Interactable_Manual.md)
 - 💡 Check out [Example Scenes](../Example)
 - ❓ Submit an [Issue](https://github.com/starryforest-ymxk/Interactable/issues)
-- 💬 Join [Discussions](https://github.com/starryforest-ymxk/Interactable/discussions)
 
