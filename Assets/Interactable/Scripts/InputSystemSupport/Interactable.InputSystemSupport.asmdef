@@ -1,0 +1,17 @@
+{
+    "name": "Interactable.InputSystemSupport",
+    "rootNamespace": "Interactable.InputSystemSupport",
+    "references": [
+        "GUID:a8f38d5d39e8b664f96b5fd86cfbedd6",
+        "GUID:75469ad4d38634e559750d17036d5f7c"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
